@@ -5,7 +5,6 @@ import org.apache.commons.math3.primes.Primes;
 public class p03straightforward {
 
     public static long largestPrimeDivisor() {
-        Primes o = new Primes();
         long LIMIT = 600851475143L;
 
         List<Long> loPrimeDivisors = primeFactors(LIMIT);
