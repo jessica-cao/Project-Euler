@@ -9,7 +9,7 @@ public class p03 {
     public static long largestPrimeDivisor() {
         long LIMIT = 600851475143L;
 
-        List<Long> loPrimeDivisors = primeFactors(LIMIT);
+        List<long> loPrimeDivisors = Primes.primeFactors(LIMIT);
         int countPrimeDivisors = loPrimeDivisors.countItems();
         long largest = 0L;
         
