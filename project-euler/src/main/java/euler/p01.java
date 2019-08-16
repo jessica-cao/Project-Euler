@@ -1,4 +1,4 @@
-import java.math.*;
+package euler;
 
 public class p01 {
 

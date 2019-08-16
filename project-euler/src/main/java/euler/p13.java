@@ -1,6 +1,8 @@
+package euler;
+
 import java.math.BigInteger;
 
-public class p13straightforward {
+public class p13 {
 
     public static String bigSum() {
         BigInteger NUMBERS[] = { new BigInteger("37107287533902102798797998220837590246510135740250"),
@@ -73,6 +75,5 @@ public class p13straightforward {
 
     public static void main(String[] args) {
         bigSum();
-
     }
 }

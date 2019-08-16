@@ -1,8 +1,10 @@
+package euler;
+
 import java.awt.List;
 import java.math.*;
 import org.apache.commons.math3.primes.Primes;
 
-public class p03straightforward {
+public class p03 {
 
     public static long largestPrimeDivisor() {
         long LIMIT = 600851475143L;

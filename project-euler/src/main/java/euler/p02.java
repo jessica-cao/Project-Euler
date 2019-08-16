@@ -1,6 +1,6 @@
-import java.math.*;
+package euler;
 
-public class p02bruteforce {
+public class p02 {
 
     public static int evenSumFib() {
         int fib1 = 1;
