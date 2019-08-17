@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.App",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p01<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p01",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p02<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p02",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p03<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p03",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p05<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p05",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p05s<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p05s",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-p13<project-euler>",
+            "request": "launch",
+            "mainClass": "euler.p13",
+            "projectName": "project-euler"
+        }
+    ]
+}
