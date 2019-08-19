@@ -58,6 +58,6 @@ public class p05s {
 
 
     public static void main(String[] args) {
-        System.out.println(smallestDivisibleNumber(20));
+        smallestDivisibleNumber(20);
     }
 }
