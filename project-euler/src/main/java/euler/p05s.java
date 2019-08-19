@@ -21,7 +21,7 @@ public class p05s {
     public static ArrayList<Integer> listOfPrimes(int n) {
         ArrayList<Integer>primes = new ArrayList<Integer>();
 
-        for(int i = 2; i <= 20; i++) {
+        for(int i = 2; i <= n; i++) {
             if (Primes.isPrime(i)) {
                 primes.add(i);
             }
@@ -29,27 +29,35 @@ public class p05s {
         return primes;
     }
 
-    public static long smallestDivisibleNumber(int n) {
+    public static ArrayList<Integer> largestPowersBelowLimit(int n) {
         ArrayList<Integer> primes = listOfPrimes(n);
-        long smallerDivisibleNumber = calculateFactorial(n);
+        ArrayList<Integer> largestPrimePowers = new ArrayList<Integer>();
+        
         for (int i : primes) {
-            if (i <= (n / 2) && !(smallerDivisibleNumber % i == 0)) {
-
-            } else {
-                return smallerDivisibleNumber;
+            int powerSoFar = i;
+            while ((powerSoFar * i) <= n) {
+                powerSoFar *= i;
             }
+            System.out.println(powerSoFar);
+            largestPrimePowers.add(powerSoFar);
+        }
+        return largestPrimePowers;
+    }
 
-            
+    public static long smallestDivisibleNumber(int n) {
+        ArrayList<Integer> factors =largestPowersBelowLimit(n);
+        long number = 1;
 
+        for (int i : factors) {
+            number *= i;
         }
 
-
-        return smallerDivisibleNumber;
+        return number;
     }
 
 
 
     public static void main(String[] args) {
-        smallestDivisibleNumber(20);
+        System.out.println(smallestDivisibleNumber(20));
     }
 }
