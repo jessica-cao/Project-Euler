@@ -32,7 +32,6 @@ public class p10s {
     }
 
     public static void main(String[] args) {
-        System.out.println("?????");
-        //System.out.println(sumOfPrimes(2000000));
+        sumOfPrimes(2000000);
     }
 }
