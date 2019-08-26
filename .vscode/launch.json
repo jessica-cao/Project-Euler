@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - p20s",
+            "request": "launch",
+            "mainClass": "euler.p20s",
+            "projectName": "project-euler"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - p16s",
             "request": "launch",
             "mainClass": "euler.p16s",
